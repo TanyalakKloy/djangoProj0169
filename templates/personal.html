@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="row bg-white">
+            <div class="col-lg-8">
+                <br>
+                <h3>ประวัติส่วนตัว</h3>
+                <div>
+                    <img class="card-img-top" src="{% static 'images/9999.jpg' %}"  >
+                </div>
+                <br>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #F8444F">
+                            <a class="btn text-white" data-bs-toggle="collapse" href="#collapseOne">
+                                <h5>ประวัติทั่วไป</h5>
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body"><h6>
+                                &nbsp &nbsp &nbsp &nbsp * ชื่อ-สกุล : นางสาวธัญญลักษณ์ กลอยกระโทก (Tanyalak Kloykrathok)<br>
+                                &nbsp &nbsp &nbsp &nbsp * ชื่อเล่น : แหวน (whan)<br>
+                                &nbsp &nbsp &nbsp &nbsp * วัน เดือน ปี เกิด : 7 เมษายน พ.ศ. 2544 (7 April 2001)<br>
+                                &nbsp &nbsp &nbsp &nbsp * อายุ : 21 ปี <br>
+                                &nbsp &nbsp &nbsp &nbsp * สัญชาติ : ไทย (Thai)<br>
+                                &nbsp &nbsp &nbsp &nbsp * เชื้อชาติ : ไทย (Thai)<br>
+                                &nbsp &nbsp &nbsp &nbsp * ศาสนา : พุทธ (Buddhism)<br>
+                                &nbsp &nbsp &nbsp &nbsp * ที่อยู่ : บ้านเลขที่ 467 หมู่ 3 ตำบลแวง อำเภอโพนทอง
+                                จังหวัดร้อยเอ็ด รหัสไปรณีย์ 45110 <br>
+                            </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="card">
+                        <div class="card-header" style="background-color: #C0EA6A">
+                            <a class="btn text-white" data-bs-toggle="collapse" href="#collapseTwo">
+                                <h5>ประวัติครอบครัว</h5>
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h6>
+                                    &nbsp &nbsp &nbsp &nbsp * บิดาชื่อ : นายประเสริฐ กลอยกระโทก <br>
+                                    &nbsp &nbsp &nbsp &nbsp * มารดาชื่อ : นางวิลาวัลย์ กลอยกระโทก<br>
+                                    &nbsp &nbsp &nbsp &nbsp * มีพี่น้องทั้งหมด 3 คน ผู้ชาย 2 คน ดิฉันเป็นน้องคนเล็ก<br>
+                                    &nbsp &nbsp &nbsp &nbsp * ที่อยู่ : บ้านเลขที่ 467 หมู่ 3 ตำบลแวง อำเภอโพนทอง
+                                จังหวัดร้อยเอ็ด รหัสไปรณีย์ 45110 <br>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+
+                    <div class="card">
+                        <div class="card-header" style="background-color: #FFCC59">
+                            <a class="btn text-white" data-bs-toggle="collapse" href="#collapseThree">
+                                <h5>งานอดิเรก</h5>
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h6>
+                                    &nbsp &nbsp &nbsp &nbsp * ดูหนัง <br>
+                                    &nbsp &nbsp &nbsp &nbsp * ฟังเพลง (เพื่อชีวิต)<br>
+
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+
+                    <div class="card">
+                        <div class="card-header" style="background-color: #5EE2F1">
+                            <a class="btn text-white" data-bs-toggle="collapse" href="#collapseFour">
+                                <h5>คติประจำใจ</h5>
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body text-center">
+                                <h5>"อย่าเอาความสำเร็จของคนอื่นมาเปรียบเทียบกับเรา"</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <img class="card-img-top"  >
+                <br>
+                <br>
+                <h6>ช่องทางการติดต่อ : </h6>
+                <div class="row text alert alert-info">
+                    <div class="row text">
+                        <div class="col-lg-3">
+                            <a href="https://www.facebook.com/profile.php?id=100009221889807" target="_blank">
+                                <img src="{% static 'images/77.png' %}" width="300px" height="200"
+                                     class="img-thumbnail">
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <a href="https://www.instagram.com/wty_l07/" target="_blank">
+                                <img src="{% static 'images/666.png' %}" width="300px" height="200"
+                                     class="img-thumbnail">
+                            </a>
+                        </div>
+                            </a>
+                        </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+{% endblock %}
