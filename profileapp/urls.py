@@ -10,4 +10,6 @@ urlpatterns = [
     path('interests', views.interests, name='interests'),
     path('sale', views.sale, name='sale'),
     path('rolemodel', views.rolemodel, name='rolemodel'),
+    path('showMyData',views.showMyData, name='showMyData'),
+
 ]
