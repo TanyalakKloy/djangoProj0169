@@ -20,38 +20,38 @@ def rolemodel(request):
     return render(request, 'rolemodel.html')
 
 def showMyData(request):
-    showID = '65342310161-9'
-    showName = "จิระพร  ชำกุล"
-    showAddress = "39 หมู่ 11 ต.กุดปลาดุก อ.เมือง จ.อำนาจเจริญ"
-    showtel = "0969010112"
+    showID = '65342310169-9'
+    showName = "ธัญญลักษณ์ กลอยกระโทก"
+    showAddress = "467 หมู่ 3 ตำบลแวง อำเภอโพนทอง จังหวัดร้อยเอ็ด รหัสไปรษณีย์ 45110"
+    showtel = "0834738224"
     showgender = "หญิง"
-    showBirthday = "09 กันยายน 2544"
-    showWeight = 55
-    showHeight = 160
+    showBirthday = "07 เมษายน พ.ศ 2544"
+    showWeight = 46
+    showHeight = 166
     showstatus = "นักศึกษา"
     showSchool = "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตขอนแก่น"
 
     products = []
 
-    product =['vans',3500.00,'../../static/images/vans.png']
+    product =['Daniel Wellington',5150.00,'../../static/images/w011.jpg']
     products.append(product)
-    product =['Converse', 3400.00,'../../static/images/conver.png']
+    product =['GUESS', 5900.00,'../../static/images/w022.jpg']
     products.append(product)
-    product =['Nike',3500.00,'../../static/images/nike.png']
+    product =['CASIO',4700.00,'../../static/images/w033.jpg']
     products.append(product)
-    product =['Adidas',1650.00,'../../static/images/adidas.png']
+    product =['MICHAEL KORS',8500.00,'../../static/images/w044.jpg']
     products.append(product)
-    product =['keds', 3210.00,'../../static/images/kede.png']
+    product =['COACH', 9400.00,'../../static/images/w055.jpg']
     products.append(product)
-    product = [ 'puna', 2500.00,'../../static/images/puma.png']
+    product = ['TOMMY HILFIGER', 8900.00,'../../static/images/w066.jpg']
     products.append(product)
-    product = ['New balance', 1600.00,'../../static/images/new.png']
+    product = ['Calvin Klein', 8600.00,'../../static/images/w077.jpg']
     products.append(product)
-    product = [ 'onitsuka', 3150.00,'../../static/images/oski.png']
+    product = ['Burberry', 12640.00,'../../static/images/w088.jpg']
     products.append(product)
-    product = [ 'Reebok', 999.00,'../../static/images/rebook.png']
+    product = ['Gucci', 44000.00,'../../static/images/w099.jpg']
     products.append(product)
-    product = [ 'lacoste', 1900.00,'../../static/images/จระเข้.png']
+    product = ['BABY-G', 4700.00,'../../static/images/w010.jpg']
     products.append(product)
 
     context = {'showID':showID,'showName':showName,'showAddress':showAddress,'showtel':showtel,

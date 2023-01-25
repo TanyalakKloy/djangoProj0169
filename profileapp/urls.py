@@ -1,6 +1,6 @@
 from django.urls import path
 from profileapp import views
-from django.http import HttpRequest
+
 
 
 urlpatterns = [
