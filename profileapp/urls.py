@@ -1,8 +1,6 @@
 from django.urls import path
 from profileapp import views
 
-
-
 urlpatterns = [
     path('', views.home, name='home'),
     path('personal', views.personal, name='personal'),
@@ -11,5 +9,7 @@ urlpatterns = [
     path('sale', views.sale, name='sale'),
     path('rolemodel', views.rolemodel, name='rolemodel'),
     path('showMyData',views.showMyData, name='showMyData'),
+    path('listProduct',views.listProduct, name='listProduct'),
+    path('inputProduct',views.inputProduct, name='inputProduct'),
 
 ]

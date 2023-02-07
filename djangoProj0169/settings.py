@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'profileapp.apps.ProfileappConfig',
+    'fontawesome_5',
 ]
 
 MIDDLEWARE = [
